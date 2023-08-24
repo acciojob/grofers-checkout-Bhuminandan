@@ -12,7 +12,7 @@ const getSum = () => {
     })
 
     let totalTR = document.createElement("tr");
-    totalTR.id.add = "ans";
+    totalTR.setAttribute("id", "ans");
     totalTR.innerText = sum;
 
     table.appendChild(totalTR);
